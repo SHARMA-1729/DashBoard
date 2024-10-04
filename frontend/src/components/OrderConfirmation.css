@@ -1,0 +1,63 @@
+/* OrderConfirmation.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.order-confirmation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.confirmation-content {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.checkmark-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #28a745;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+}
+
+.checkmark-icon {
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.go-to-order {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.go-to-orders:hover {
+    background-color: #0056b3;
+}

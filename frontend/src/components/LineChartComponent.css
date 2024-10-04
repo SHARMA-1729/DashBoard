@@ -1,0 +1,16 @@
+/* LineChartComponent.css */
+.line-chart-container {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .recharts-tooltip-label {
+    color: #333;
+    font-size: 12px;
+  }
+  
